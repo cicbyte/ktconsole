@@ -1,0 +1,280 @@
+/* Kinetic Console - Global Dark Theme Styles */
+
+/* Base theme */
+html {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-light);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-secondary);
+}
+
+/* Ant Design Dark Overrides */
+.ant-menu {
+  background: transparent !important;
+  color: var(--color-text) !important;
+}
+
+.ant-menu-item {
+  color: var(--color-text-secondary) !important;
+}
+
+.ant-menu-item:hover,
+.ant-menu-item-selected {
+  color: var(--color-primary) !important;
+  background: var(--color-hover) !important;
+}
+
+.ant-btn {
+  background-color: var(--color-surface) !important;
+  border-color: var(--color-border-light) !important;
+  color: var(--color-text) !important;
+}
+
+.ant-btn:hover {
+  background-color: var(--color-surface-hover) !important;
+  border-color: var(--color-primary) !important;
+  color: var(--color-primary) !important;
+}
+
+.ant-btn-primary {
+  background-color: var(--color-primary) !important;
+  border-color: var(--color-primary) !important;
+  color: #0a0e14 !important;
+}
+
+.ant-btn-primary:hover {
+  background-color: var(--color-primary-hover) !important;
+  border-color: var(--color-primary-hover) !important;
+}
+
+.ant-btn-text {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  color: var(--color-text-secondary) !important;
+}
+
+.ant-btn-text:hover {
+  background-color: var(--color-hover) !important;
+  color: var(--color-primary) !important;
+}
+
+.ant-btn-dangerous {
+  background-color: rgba(255, 107, 107, 0.1) !important;
+  border-color: var(--color-error) !important;
+  color: var(--color-error) !important;
+}
+
+.ant-btn-dangerous:hover {
+  background-color: rgba(255, 107, 107, 0.2) !important;
+}
+
+.ant-input,
+.ant-input-affix-wrapper {
+  background-color: var(--color-surface) !important;
+  border-color: var(--color-border-light) !important;
+  color: var(--color-text) !important;
+}
+
+.ant-input:hover,
+.ant-input-affix-wrapper:hover {
+  border-color: var(--color-primary) !important;
+}
+
+.ant-input:focus,
+.ant-input-focused,
+.ant-input-affix-wrapper-focused {
+  border-color: var(--color-primary) !important;
+  box-shadow: 0 0 0 2px var(--color-primary-dim) !important;
+}
+
+.ant-input::placeholder {
+  color: var(--color-text-dim) !important;
+}
+
+.ant-select-selector {
+  background-color: var(--color-surface) !important;
+  border-color: var(--color-border-light) !important;
+  color: var(--color-text) !important;
+}
+
+.ant-select-dropdown {
+  background-color: var(--color-surface) !important;
+  border: 1px solid var(--color-border-light) !important;
+}
+
+.ant-select-item {
+  color: var(--color-text) !important;
+}
+
+.ant-select-item-option-selected {
+  background-color: var(--color-primary-dim) !important;
+  color: var(--color-primary) !important;
+}
+
+.ant-switch {
+  background-color: var(--color-border-light) !important;
+}
+
+.ant-switch-checked {
+  background-color: var(--color-primary) !important;
+}
+
+.ant-card {
+  background-color: var(--color-surface) !important;
+  border-color: var(--color-border) !important;
+  color: var(--color-text) !important;
+}
+
+.ant-modal-content {
+  background-color: var(--color-surface) !important;
+  border: 1px solid var(--color-border-light) !important;
+}
+
+.ant-modal-header {
+  background-color: var(--color-surface) !important;
+  border-bottom-color: var(--color-border) !important;
+}
+
+.ant-modal-title {
+  color: var(--color-text) !important;
+}
+
+.ant-modal-close {
+  color: var(--color-text-secondary) !important;
+}
+
+.ant-modal-close:hover {
+  color: var(--color-text) !important;
+}
+
+.ant-modal-body {
+  color: var(--color-text) !important;
+}
+
+.ant-modal-footer {
+  border-top-color: var(--color-border) !important;
+}
+
+.ant-tooltip-inner {
+  background-color: var(--color-surface-alt) !important;
+  color: var(--color-text) !important;
+  border: 1px solid var(--color-border-light);
+}
+
+.ant-popover-inner {
+  background-color: var(--color-surface) !important;
+  border: 1px solid var(--color-border-light) !important;
+}
+
+.ant-form-item-label > label {
+  color: var(--color-text) !important;
+}
+
+.ant-divider {
+  border-color: var(--color-border) !important;
+}
+
+.ant-input-number {
+  background-color: var(--color-surface) !important;
+  border-color: var(--color-border-light) !important;
+  color: var(--color-text) !important;
+}
+
+.ant-spin-dot-item {
+  background-color: var(--color-primary) !important;
+}
+
+.ant-message-notice-content {
+  background-color: var(--color-surface) !important;
+  border: 1px solid var(--color-border-light) !important;
+  color: var(--color-text) !important;
+}
+
+.ant-empty-description {
+  color: var(--color-text-secondary) !important;
+}
+
+.ant-progress-bg {
+  background-color: var(--color-primary) !important;
+}
+
+.ant-progress-inner {
+  background-color: var(--color-border) !important;
+}
+
+.ant-steps-item-title {
+  color: var(--color-text) !important;
+}
+
+.ant-steps-item-description {
+  color: var(--color-text-secondary) !important;
+}
+
+.ant-steps-item-finish .ant-steps-item-icon {
+  background-color: var(--color-primary-dim) !important;
+  border-color: var(--color-primary) !important;
+}
+
+.ant-tabs-tab {
+  color: var(--color-text-secondary) !important;
+}
+
+.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: var(--color-primary) !important;
+}
+
+.ant-tabs-ink-bar {
+  background-color: var(--color-primary) !important;
+}
+
+/* Log level colors */
+.log-level-info { color: var(--color-info); }
+.log-level-debug { color: var(--color-online); }
+.log-level-warn { color: var(--color-warning); }
+.log-level-error { color: var(--color-error); }
+
+/* Status indicator glow */
+.status-online {
+  color: var(--color-online);
+  text-shadow: 0 0 8px rgba(0, 212, 170, 0.5);
+}
+
+.status-offline {
+  color: var(--color-offline);
+}
+
+/* Terminal cursor blink */
+@keyframes cursor-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.cursor-blink {
+  animation: cursor-blink 1s infinite;
+}
+
+/* Glow effects */
+.glow-green {
+  box-shadow: 0 0 8px rgba(0, 212, 170, 0.3);
+}
+
+.glow-red {
+  box-shadow: 0 0 8px rgba(255, 107, 107, 0.3);
+}
