@@ -54,3 +54,4 @@ Cargo.lock
 
 .claude/
 CLAUDE.md
+.reference/
